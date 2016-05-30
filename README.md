@@ -1,0 +1,2 @@
+# zig
+Home automation project
