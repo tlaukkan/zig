@@ -1,2 +1,2 @@
 # zig
-Home automation project
+SlackBot exposing zigbee4java ZigBeeConsole via direct chat.

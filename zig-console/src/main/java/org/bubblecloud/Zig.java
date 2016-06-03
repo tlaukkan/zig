@@ -1,13 +1,10 @@
 package org.bubblecloud;
 
 import com.ullink.slack.simpleslackapi.SlackChannel;
-import com.ullink.slack.simpleslackapi.SlackMessageHandle;
 import com.ullink.slack.simpleslackapi.SlackSession;
 import com.ullink.slack.simpleslackapi.events.SlackMessagePosted;
 import com.ullink.slack.simpleslackapi.impl.SlackSessionFactory;
 import com.ullink.slack.simpleslackapi.listeners.SlackMessagePostedListener;
-import com.ullink.slack.simpleslackapi.replies.SlackChannelReply;
-import com.ullink.slack.simpleslackapi.replies.SlackReply;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.bubblecloud.zigbee.ZigBeeConsoleApiClient;
 import org.bubblecloud.zigbee.ZigBeeConsoleRpcApi;
