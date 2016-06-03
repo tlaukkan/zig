@@ -42,8 +42,6 @@ public class Zig {
         final String zigId = session.sessionPersona().getId();
 
         try {
-            final SlackChannel channel = session.findChannelByName("general");
-
             session.addMessagePostedListener(new SlackMessagePostedListener() {
                 @Override
                 public void onEvent(final SlackMessagePosted event, final SlackSession session) {
@@ -53,7 +51,6 @@ public class Zig {
                     }
                 }
             });
-            LOGGER.info(channel.toString());
 
             //System.out.println(zigBeeConsoleApi.execute("help"));
             Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
