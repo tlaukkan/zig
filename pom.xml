@@ -14,17 +14,13 @@
 
     <repositories>
         <repository>
-            <id>bubblecloud-cloudbees-release</id>
-            <name>bubblecloud-cloudbees-release</name>
-            <url>http://repository-bubblecloud.forge.cloudbees.com/release/</url>
+            <id>jcenter-bintray</id>
+            <name>bintray</name>
+            <url>http://jcenter.bintray.com</url>
         </repository>
         <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>bintray-tlaukkan-bubblecloud</id>
-            <name>bintray</name>
-            <url>http://dl.bintray.com/tlaukkan/bubblecloud</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
