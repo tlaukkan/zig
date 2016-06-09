@@ -1,4 +1,4 @@
-package org.bubblecloud;
+package org.bubblecloud.zig;
 
 import com.ullink.slack.simpleslackapi.SlackSession;
 import com.ullink.slack.simpleslackapi.events.SlackMessagePosted;
